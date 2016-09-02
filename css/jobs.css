@@ -1,0 +1,441 @@
+.inner {
+	width: 1105px;
+	margin: auto;
+}
+
+#header {
+	width: 100%;
+	height: 60px;
+	background-color: #20242b;
+	position: relative;
+}
+
+#header_img {
+	width: 135px;
+	height: 40px;
+	margin: auto;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+}
+
+#cover {
+	width: 100%;
+	height: 1310px;
+	background-color: #e9edf5;
+}
+
+#covergif {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+#covergif img {
+	width: 100%;
+}
+
+#title {
+	width: 162px;
+	margin: auto;
+	color: #20242b;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.line {
+	width: 52px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#intro {
+	width: 700px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #20242b;
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+
+.inner_main {
+	width: 1115px;
+	height: 320px;
+	margin: auto;
+}
+
+.main {
+	width: 250px;
+	height: 320px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 75px;
+	position: relative;
+}
+
+#m_story {
+	background-color: #21c98e;
+}
+
+#m_desarrollo {
+	background-color: #fb5758;
+}
+
+#m_audiencia {
+	background-color: #fbcb2f;
+}
+
+#m_comercial {
+	background-color: #23cdcc;
+	margin-right: 0px;
+}
+
+.image {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.area {
+	width: 90px;
+	margin: auto;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	position: absolute;
+	bottom: 30px;
+	left: 0px;
+	right: 0px;
+}
+
+.vacante {
+	width: 70px;
+	margin: auto;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 14px;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	right: 0px;
+}
+
+.dep_title {
+	margin: auto;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	letter-spacing: 0.6;
+}
+
+.section {
+	width: 500px;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.icon {
+	width: 72px;
+	height: 72px;
+	float: left;
+	margin-right: 28px;
+}
+
+.sec {
+	width: 400px;
+	float: left;
+}
+
+.puesto {
+	width: 100px;
+	color: #5d646d;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.sec_content, .requisitos, .req_content {
+	width: 100%;
+	color: #5d646d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+#t_story {
+	width: 145px;
+	color: #21c98e;
+	margin-top: 100px;
+}
+
+#t_desarrollo {
+	width: 130px;
+	color: #fb5758;
+}
+
+#t_audiencia {
+	width: 110px;
+	color: #fbcb2f;
+}
+
+#t_comercial {
+	width: 115px;
+	color: #23cdcc;
+}
+
+#aplication {
+	height: 700px;
+	background-color: #e9edf5;
+}
+
+#app_title {
+	width: 115px;
+	margin: auto;
+	padding-top: 100px;
+	margin-bottom: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: #20242b;
+}
+
+#form {
+	width: 500px;
+	margin: auto;
+}
+
+input, .ajax-file-upload {
+	width: 100% !important;
+    height: 40px !important;
+    font-size: 15px !important;
+    text-align: center !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.margin {
+	margin-bottom: 15px;
+}
+
+#send {
+	width: 121px;
+	height: 42px;
+	margin: auto;
+	color: #fff;
+	border-radius: 25%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	background-image: url(../images/aplicacion/Boton.png);
+	position: relative;
+}
+
+#send p {
+	width: 55px;
+    height: 20px;
+	position: absolute;
+	top: 10px;
+	left: 35px;
+}
+
+#form select {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 15px;
+	border: 1px solid #d7d7d7;
+	text-align: center;
+	background-image: url("../images/aplicacion/Elige.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-ms-appearance: none;
+}
+
+#form select, #form option {
+	padding: 0 42%;
+	font-family:  'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #a9a9ab;
+}
+
+.upload_book, .upload_cv {
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #d5d5d5;
+    background-color: #fff;
+    color: #a9a9ab;
+    font-family: verdana;
+    font-size: 12pt;
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 15px;
+}
+
+.upload_book .input-file, .upload_cv .input-file {
+    margin: 0;
+    padding: 0;outline:0;
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    height: 40px;
+}
+
+.adjuntar {
+	position: absolute;
+	right: 5px;
+	top: 13px;
+	cursor: pointer;
+}
+
+.upload_book span, .upload_cv span {
+	width: 161px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 170px;
+	font-family:  'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #a9a9ab;
+	text-align: center;
+}
+
+@media(max-width: 1150px) {
+	.inner {
+    	width: 880px;
+	}
+
+	.main {
+		width: 197px;
+		margin-right: 30px;
+	}
+}
+
+@media(max-width: 900px) {
+	#cover {
+		height: 1513px;
+	}
+
+	.inner {
+    	width: 750px;
+	}
+
+	.inner_main {
+		width: 455px;
+		height: 835px;
+	}
+}
+
+@media(max-width: 768px) {
+	.inner, #intro {
+    	width: 550px;
+	}
+}
+
+@media(max-width: 560px) {
+	.inner, #intro {
+    	width: 400px;
+	}
+
+	#cover {
+	    height: 1374px;
+	}
+
+	.section, .sec_content, .sec {
+		width: 100%;
+	}
+
+	#form, #form input, #form div {
+		width: 100%;
+	}
+
+	#send {
+		width: 121px !important;
+	}
+
+	.upload_book span, .upload_cv span {
+		right: 120px;
+	}
+}
+
+@media(max-width: 414px) {
+	.inner, #intro {
+    	width: 100% !important;
+	}
+
+	.main {
+		width: 150px;
+		height: 220px;
+		margin-right: 10px;
+		margin-bottom: 40px;
+	}
+
+	.image, .image img {
+		width: 100%;
+	}
+
+	.inner_main {
+	    width: 320px;
+	    height: 520px;
+	}
+
+	#cover {
+	    height: 1111px;
+	}
+
+	.sec {
+		width: 68%;
+	}
+
+	#content {
+		height: 5150px;
+	}
+}
+
+@media(max-width: 380px) {
+	.upload_book span, .upload_cv span {
+	    right: 110px;
+	}
+}
+
+@media(max-width: 360px) {
+	.upload_book span, .upload_cv span {
+	    right: 100px;
+	}
+}
+
+@media(max-width: 340px) {
+	.upload_book span, .upload_cv span {
+	    right: 90px;
+	}
+}
+
+@media(max-width: 320px) {
+	.upload_book span, .upload_cv span {
+	    right: 70px;
+	}
+}
+
+
+
+
+
+
+
+
+
