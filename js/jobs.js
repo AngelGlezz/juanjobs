@@ -23,4 +23,8 @@ $(document).ready(function(){
 	  	extErrorStr:"Solo puedes realizar carga de archivos!",
 	  	uploadErrorStr:"Ocurrio un error al carga. Intentelo de nuevo!"*/
 	});
+	$("#send").click(function(){
+		$("#change").hide();
+		$("#gracias").fadeIn();
+	});
 });

@@ -1,4 +1,4 @@
-.inner {
+.inner, #inner {
 	width: 1105px;
 	margin: auto;
 }
@@ -203,7 +203,7 @@
 	background-color: #e9edf5;
 }
 
-#app_title {
+.app_title {
 	width: 115px;
 	margin: auto;
 	padding-top: 100px;
@@ -242,6 +242,7 @@ input, .ajax-file-upload {
 	text-align: center;
 	background-image: url(../images/aplicacion/Boton.png);
 	position: relative;
+	cursor: pointer;
 }
 
 #send p {
@@ -315,8 +316,32 @@ input, .ajax-file-upload {
 	text-align: center;
 }
 
+#gracias_text {
+	width: 600px;
+	margin: auto;
+	font-family:  'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #20242b;
+	line-height: 25px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#juan_pan {
+	width: 310px;
+	margin: auto;
+}
+
+#title_pan {
+	width: 270px;
+}
+
+#gracias {
+	display: none;
+}
+
 @media(max-width: 1150px) {
-	.inner {
+	.inner, #inner {
     	width: 880px;
 	}
 
@@ -335,7 +360,7 @@ input, .ajax-file-upload {
 		height: 1513px;
 	}
 
-	.inner {
+	.inner, #inner {
     	width: 750px;
 	}
 
@@ -346,13 +371,13 @@ input, .ajax-file-upload {
 }
 
 @media(max-width: 768px) {
-	.inner, #intro {
+	.inner, #intro, #inner {
     	width: 550px;
 	}
 }
 
 @media(max-width: 560px) {
-	.inner, #intro {
+	.inner, #intro, #inner {
     	width: 400px;
 	}
 
@@ -378,8 +403,13 @@ input, .ajax-file-upload {
 }
 
 @media(max-width: 414px) {
-	.inner, #intro {
-    	width: 100% !important;
+	.inner, #intro, #inner, #gracias_text {
+    	width: 98% !important;
+	}
+
+	#intro {
+		margin: 0px 10px;
+		margin-bottom: 40px;
 	}
 
 	.main {
@@ -407,7 +437,7 @@ input, .ajax-file-upload {
 	}
 
 	#content {
-		height: 5150px;
+		height: 5000px;
 	}
 }
 
