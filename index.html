@@ -243,18 +243,20 @@
 	 				<div class="app_title">APLICACIÓN</div>
 	 				<div class="line"><img src="images/Linea_obscura.jpg"></div>
 	 				<div id="form">
-	 					<input type="text" name="nombre" placeholder="Nombre" class="margin">
-	 					<div class="upload_book"><input type="file" name="book" class="input-file" /><span>Book / Reel / Portafolio</span><img src="images/aplicacion/Adjunta.png" class="adjuntar"></div>
-	 					<div class="upload_cv"><input type="file" name="book" class="input-file" /><span>CV</span><img src="images/aplicacion/Adjunta.png" class="adjuntar"></div>
-	 					<input type="email" name="mail" placeholder="Correo electrónico" class="margin">
-	 					<select>
-	 						<option value="area">Área</option>
-	 						<option value="storytelling">Storytelling</option>
-	 						<option value="desarrollo">Desarrollo</option>
-	 						<option value="audiencia">Audiencia</option>
-	 						<option value="comercial">Comercial</option>
-	 					</select>
-	 					<div id="send"><p>ENVIAR</p></div>
+		 				<form method="post" action="subir_archivo.php" enctype="multipart/form-data">
+		 					<input type="text" name="nombre" placeholder="Nombre" class="margin">
+		 					<div class="upload_book"><input type="file" name="book" class="input-file" /><span>Book / Reel / Portafolio</span><img src="images/aplicacion/Adjunta.png" class="adjuntar"></div>
+		 					<div class="upload_cv"><input type="file" name="cv" class="input-file" /><span>CV</span><img src="images/aplicacion/Adjunta.png" class="adjuntar"></div>
+		 					<input type="email" name="mail" placeholder="Correo electrónico" class="margin">
+		 					<select>
+		 						<option value="area">Área</option>
+		 						<option value="storytelling">Storytelling</option>
+		 						<option value="desarrollo">Desarrollo</option>
+		 						<option value="audiencia">Audiencia</option>
+		 						<option value="comercial">Comercial</option>
+		 					</select>
+		 					<div id="send"><input id="sendi" type="submit" name="send" value="Enviar"></div>
+	 					</form>
 	 				</div>
 	 			</div>
 	 			<div id="gracias">

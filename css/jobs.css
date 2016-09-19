@@ -161,7 +161,7 @@
 }
 
 .puesto {
-	width: 100px;
+	width: 130px;
 	color: #5d646d;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -230,19 +230,24 @@ input, .ajax-file-upload {
 	margin-bottom: 15px;
 }
 
-#send {
-	width: 121px;
-	height: 42px;
+#sendi {
+	width: 122px !important;
+	height: 42px !important;
 	margin: auto;
 	color: #fff;
-	border-radius: 25%;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	border-radius: 40%;
 	font-weight: 600;
-	text-align: center;
 	background-image: url(../images/aplicacion/Boton.png);
 	position: relative;
 	cursor: pointer;
+	border: none;
+}
+
+#send {
+	width: 121px !important;
+	height: 42px !important;
+	margin: auto;
+	border-radius: 25%;
 }
 
 #send p {
